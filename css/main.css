@@ -44,15 +44,15 @@ input.slider {
 }
 
 input.slider::-moz-range-thumb {
-    width: 0px;
-    height: 0px;
+    width: 6px;
+    height: 300px;
     background-color: white;
     cursor: pointer;
 }
 
 input.slider::-webkit-slider-thumb {
-    width: 0px;
-    height: 0px;
+    width: 6px;
+    height: 230px;
     background-color: white;
     cursor: pointer;
     appearance: none;
