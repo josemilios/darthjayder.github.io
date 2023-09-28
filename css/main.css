@@ -74,21 +74,7 @@ div.slider-button {
     z-index: 3;
 }
 
-div.slider-button:before {
-    color: #555;
-    position: absolute;
-    top: 3px;
-    left: 0px;
-    content: "\2B9C";
-}
 
-div.slider-button:after {
-    color: #555;
-    position: absolute;
-    top: 3px;
-    right: 0px;
-    content: "\2B9E";
-}
 
 @media (max-width: 767px) {
     div.container {
