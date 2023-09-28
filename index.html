@@ -1,11 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Before & After Image Slider</title>
+    <meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover, initial-scale=1" />
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+</head>
 <body>
-  <head>
-    <link rel="stylesheet" href="style.css" 
-  </head>
-  <div class='container'>
-    <div class='img background-img'></div>
-    <div class='img foreground-img'></div>
-    <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
-    <div class='slider-button'></div>
-  </div>
+
+<div class="container">
+    <div class="image before"></div>
+    <div class="image after"></div>
+    <div class="image before" style="background-image:url('img/before.jpg');"></div>
+    <div class="image after" style="background-image:url('img/after.jpg');"></div>
+    <input type="range" class="slider" min="1" max="100" value="50" />
+    <div class="slider-button"></div>
+</div>
+
+<div class="container">
+    <div class="image before" style="background-image:url('img/before.jpg');"></div>
+    <div class="image after" style="background-image:url('img/after.jpg');"></div>
+    <input type="range" class="slider" min="1" max="100" value="50" />
+    <div class="slider-button"></div>
+</div>
+
+  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+  
 </body>
+</html>
